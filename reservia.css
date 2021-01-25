@@ -1,0 +1,234 @@
+@font-face{
+    font-family: "Raleway";
+    src: url("/fonts/Raleway-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+    padding-left: 25px;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    color: #0065FC;
+    font-weight: 600;
+    opacity: 80%;
+    text-decoration: overline;
+}
+
+
+.search{
+    border: 1px solid grey;
+    width: 17%;
+}
+
+.search input{
+    border: none
+}
+
+.search button{
+    border: none;
+    background: #0065FC;
+    color: white;
+}
+
+.search .fa-map-marker-alt{
+    background: grey;
+    width: 50;    
+    
+}
+
+.searchfilters{
+    padding-left: 1.5%;
+}
+
+.searchfilters h1{
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.searchfilters h2{
+    font-size: 13.9px;
+    font-weight: 550;
+}
+
+.filters{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bluefil{
+    color: #0065FC;
+}
+
+.informations{
+    display: flex;
+    align-items: baseline;
+    font-size: 13.9px;
+    font-weight: 550;
+    width: 25%;
+}
+
+.fa-info{
+    color: #0065FC;
+    border: 1px solid grey;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 20px;
+    padding: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.hebergements1{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #F2F2F2;
+    padding-top:5%;
+    width: 69%;
+    border-radius: 2%;
+}
+
+.section1 h2{
+    position: absolute;
+    top: 30%;
+    left: 2.5%;
+}
+
+.populaires{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #F2F2F2;
+    padding-top: 5%;
+    width: 29%;
+    border-radius: 3.5%
+}
+
+.populaires figure{
+    display: flex;
+    
+}
+
+
+
+.populaires h2{
+    position: absolute;
+    top: 30%;
+    right: 14.8%;
+}
+
+.fa-chart-line{
+    position: absolute;
+    top: 33.2%;
+    right: 4%;
+}
+
+.fa-star{
+    color: #0065FC;
+}
+
+.activites{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:5%;
+}
+
+.activites h2{
+    position: absolute;
+    left: 2.5%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #F2F2F2;
+    background-position: center;
+    width: 100%;
+}
+
+.section1 figure {
+    border: 1px solid white;
+    border-radius: 9%;
+    padding: 6px;
+    background: white;
+    height: 27%;
+}
+
+.section1 img{
+    width: 320px;
+    height: 200px;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+.populaires figure{
+    display: flex;
+
+    border: 1px solid white;
+    border-radius: 9%;
+    padding: 6px;
+    background: white;
+    height: 27%;
+    width: 80%;
+    display: table;
+}
+
+.populaires img{
+    width: 170px;
+    height: 200px;
+    border-top-left-radius: 9%;
+    border-bottom-left-radius:  9%;
+}
+
+figcaption h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.apropos{
+    font-weight: 700;
+}
+
+.hebergements{
+    font-weight: 700;
+}
+
+.assitance{
+    font-weight: 700;
+}
