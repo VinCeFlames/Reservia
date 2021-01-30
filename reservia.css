@@ -10,8 +10,6 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    display: flex;
-    flex-direction: column
 }
 
 header{
@@ -20,8 +18,8 @@ header{
 }
 
 .logo{
-    height: 40px;
     width: auto;
+    height: 40px;
     padding-left: 25px;
 }
 
@@ -30,35 +28,45 @@ nav{
 }
 
 nav a{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
+    padding: 15px 40px 0 40px;
     color: #0065FC;
     font-weight: 600;
     opacity: 80%;
     text-decoration: overline;
 }
 
-
 .search{
-    border: 1px solid grey;
-    width: 17%;
+    display: flex;
 }
 
-.search input{
-    border: none
+.search input{ 
+    width: 180px;
+    height: 33px;
+}
+
+input{
+    border: solid 2px #F2F2F2 ;
 }
 
 .search button{
+    opacity: 85%;
     border: none;
     background: #0065FC;
     color: white;
+    width: 100px;
+    height: 33px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
 }
 
 .search .fa-map-marker-alt{
-    background: grey;
-    width: 50;    
-    
+    padding-left: 10px;
+    padding-top: 7px;
+    background-color: #F2F2F2;
+    width: 33px;
+    height: 33px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
 }
 
 .searchfilters{
@@ -71,44 +79,126 @@ nav a{
 }
 
 .searchfilters h2{
-    font-size: 13.9px;
+    font-size: 14px;
     font-weight: 550;
 }
 
 .filters{
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    width: 30%;
+    align-items: center;
+    width: 50%;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 15px;
 }
 
-.bluefil{
+.bluefil1{
     color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 8px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
+.bluefil2{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 11px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.bluefil3{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.bluefil4{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 9px;
+    padding-left: 9px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.eco{
+    font-size: 14px;
+    border: solid;
+    border-left-style: initial;
+    border-width: 1px;
+    width: 120px;
+    height: 32px;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.fam{
+    border: solid;
+    border-left: none;
+    border-width: 1px;
+    width: 85px;
+    height: 32px;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.rom{
+    border: solid;
+    border-left: none;
+    border-width: 1px;
+    width: 115px;
+    height: 32px;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.ani{
+    border: solid;
+    border-left: none;
+    border-width: 1px;
+    width: 160px;
+    height: 32px;
+    padding-top: 6px;
+    padding-left: 15px;
 }
 
 .informations{
     display: flex;
     align-items: baseline;
-    font-size: 13.9px;
+    font-size: 14px;
     font-weight: 550;
     width: 25%;
 }
 
 .fa-info{
     color: #0065FC;
-    border: 1px solid grey;
+    border: 1px solid rgb(202, 202, 202);
     border-radius: 50% 50% 50% 50%;
-    margin-right: 20px;
-    padding: 7px;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
+    padding-left: 7px;
+    padding-top: 3px;
+    margin-right: 12px;
 }
 
 .hebergements1{
-    display: flex;
-    justify-content: space-between;    
+    display: flex;  
 }
 
 .section1{
@@ -117,14 +207,16 @@ nav a{
     flex-wrap: wrap;
     background: #F2F2F2;
     padding-top:5%;
-    width: 69%;
+    margin-right: 2%;
+    width: 70%;
+    height: 50%;
     border-radius: 2%;
 }
 
 .section1 h2{
     position: absolute;
-    top: 30%;
-    left: 2.5%;
+    top: 32%;
+    left: 3%;
 }
 
 .populaires{
@@ -133,26 +225,23 @@ nav a{
     flex-direction: column;
     background: #F2F2F2;
     padding-top: 5%;
-    width: 29%;
+    width: 30%;
     border-radius: 3.5%
 }
 
 .populaires figure{
     display: flex;
-    
 }
-
-
 
 .populaires h2{
     position: absolute;
-    top: 30%;
+    top: 32%;
     right: 14.8%;
 }
 
 .fa-chart-line{
     position: absolute;
-    top: 33.2%;
+    top: 35%;
     right: 4%;
 }
 
@@ -161,12 +250,14 @@ nav a{
 }
 
 .activites{
+    background: red;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     flex-direction: row;
     justify-content: center;
-    padding-top:5%;
+    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .activites h2{
@@ -187,11 +278,11 @@ footer{
     border-radius: 9%;
     padding: 6px;
     background: white;
-    height: 27%;
+    height: 45%;
 }
 
 .section1 img{
-    width: 320px;
+    width: 330px;
     height: 200px;
     border-top-left-radius: 9%;
     border-top-right-radius: 9%;
@@ -199,14 +290,13 @@ footer{
 
 .populaires figure{
     display: flex;
-
+    flex-wrap: nowrap;
     border: 1px solid white;
     border-radius: 9%;
     padding: 6px;
     background: white;
     height: 27%;
     width: 80%;
-    display: table;
 }
 
 .populaires img{
@@ -214,6 +304,12 @@ footer{
     height: 200px;
     border-top-left-radius: 9%;
     border-bottom-left-radius:  9%;
+}
+
+.populaires figcaption{
+    width: 43%;
+    padding-top: 35px;
+    padding-left: 30px;
 }
 
 figcaption h3{
@@ -232,3 +328,4 @@ figcaption h3{
 .assitance{
     font-weight: 700;
 }
+
