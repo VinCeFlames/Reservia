@@ -112,47 +112,6 @@ nav a{
     margin-left: 10px;
 }
 
-
-.bluefil1{
-    color: #0065FC;
-    background: #d3e5fd;
-    width: 35px;
-    height: 35px;
-    padding-top: 10px;
-    padding-left: 8px;
-    border-radius: 50%;    
-}
-
-.bluefil2{
-    color: #0065FC;
-    background: #d3e5fd;
-    width: 35px;
-    height: 35px;
-    padding-top: 10px;
-    padding-left: 11px;
-    border-radius: 50%;    
-}
-
-.bluefil3{
-    color: #0065FC;
-    background: #d3e5fd;
-    width: 35px;
-    height: 35px;
-    padding-top: 10px;
-    padding-left: 9px;
-    border-radius: 50%;    
-}
-
-.bluefil4{
-    color: #0065FC;
-    background: #d3e5fd;
-    width: 35px;
-    height: 35px;
-    padding-top: 9px;
-    padding-left: 9px;
-    border-radius: 50%;
-}
-
 .eco1{
     display: flex;
     align-items: center;
@@ -162,6 +121,20 @@ nav a{
     width: 150px;
     height: 35px;
     margin-left: 23px;
+}
+
+.eco1 p:hover{
+    color: orangered;
+}
+
+.bluefil1{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 8px;
+    border-radius: 50%;    
 }
 
 .eco{
@@ -180,6 +153,20 @@ nav a{
     margin-left: 18px;
 }
 
+.fam1 p:hover{
+    color: orangered;
+}
+
+.bluefil2{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 11px;
+    border-radius: 50%;    
+}
+
 .fam{
     padding-left: 9px;
     margin: 0;
@@ -196,6 +183,20 @@ nav a{
     margin-left: 18px;
 }
 
+.rom1 p:hover{
+    color: orangered;
+}
+
+.bluefil3{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 9px;
+    border-radius: 50%;    
+}
+
 .rom{
     padding-left: 9px;
     margin: 0;
@@ -210,6 +211,20 @@ nav a{
     width: 200px;
     height: 35px;
     margin-left: 18px;
+}
+
+.ani1 p:hover{
+    color: orangered;
+}
+
+.bluefil4{
+    color: #0065FC;
+    background: #d3e5fd;
+    width: 35px;
+    height: 35px;
+    padding-top: 9px;
+    padding-left: 9px;
+    border-radius: 50%;
 }
 
 .ani{
@@ -431,4 +446,3 @@ footer{
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 900;
 }
-
