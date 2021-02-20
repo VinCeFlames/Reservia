@@ -209,7 +209,6 @@ nav .inscr a{
     width: 35px;
     height: 35px;
     padding: 10px 0 0 11px;
-        
 }
 
 .fam{
@@ -481,7 +480,7 @@ footer{
     font-weight: 900;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
 .logo{
     margin-left: 20px;
@@ -666,8 +665,8 @@ nav{
 
 nav .slideborder1 a{
     border-bottom: solid 3px rgb(221, 221, 221);
-    padding-bottom: 10px;
-    margin-left: 20%;
+    padding: 0 40px 10px 40px;
+    margin-left: 23%;
 }
 
 nav .slideborder1 a:hover{
@@ -680,8 +679,8 @@ nav .slideborder1:hover{
 
 nav .slideborder2 a{
     border-bottom: solid 3px rgb(221, 221, 221);
-    padding-bottom: 10px;
-    margin-left: 20%;
+    padding: 0 40px 10px 40px;
+    margin-left: 30%;
 }
 
 nav .slideborder2 a:hover{
@@ -819,7 +818,7 @@ nav .inscr a{
 
 .titlepopulaire{
     width: 100%;
-    padding: 20px 0 0px 0;
+    padding: 20px 18px 0px 0;
 }
 
 .titlepopulaire h2{
@@ -834,6 +833,7 @@ nav .inscr a{
 }
 
 .populaires figure{
+    display: flex;
     width: 92%;
     height: 162px;
 }
@@ -844,16 +844,16 @@ nav .inscr a{
 }
 
 .populaires figcaption{
-    width: 60%;
+    width: 44%;
     padding-left: 16px;
 }
 
 .populaires figcaption p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .populaires .fa-star {
-    padding-top: 30px;
+    padding-top: 54px;
     font-size: 11px;
 }
 
@@ -977,7 +977,7 @@ nav .slideborder1 a{
 
 nav .slideborder2 a{
     padding: 15px 20px 10px 20px;
-    
+    margin-left: 21%;
 }
 
 .searchfilters h1{
@@ -1006,7 +1006,19 @@ nav .slideborder2 a{
 }
 
 .titlepopulaire{
-    padding: 20px 14px 0 0;
+    padding: 20px 64px 0 0;
+}
+
+.populaires figure{
+    display: flex;
+}
+
+.populaires figcaption{
+    width: 50%;
+}
+
+.populaires .fa-star {
+    padding-top: 38px;
 }
 
 .activites h3{
