@@ -480,7 +480,7 @@ footer{
     font-weight: 900;
 }
 
-@media screen and (min-width: 320px) and (max-width: 415px) {
+@media screen and (min-width: 320px) and (max-width: 413px) {
 
 header{
     justify-content: center;
@@ -507,7 +507,7 @@ nav{
 nav .slideborder1 a{
     border-bottom: solid 3px rgb(221, 221, 221);
     padding: 0 40px 10px 40px;
-    margin-left: 39%;
+    margin-left: 43%;
 }
 
 nav .slideborder1 a:hover{
@@ -521,7 +521,7 @@ nav .slideborder1:hover{
 nav .slideborder2 a{
     border-bottom: solid 3px rgb(221, 221, 221);
     padding: 0 40px 10px 40px;
-    margin-left: 52%;
+    margin-left: 58%;
 }
 
 nav .slideborder2 a:hover{
@@ -535,6 +535,13 @@ nav .slideborder2:hover{
 nav .inscr a{
     margin-left: 46%;
 }
+
+.searchfilters{
+    padding-left: 0;
+    margin-left: 18px;
+    width: 100%;
+}
+
 
 .searchfilters h1{
     font-size: 20px;
@@ -655,6 +662,7 @@ nav .inscr a{
 
 .populaires{
     width: 100%;
+    margin-left: 29px;
     border-radius: 0;
 }
 
@@ -710,13 +718,13 @@ nav .inscr a{
 }
 
 .container1 figure{
-    width: 100%;
+    width: 300px;
     box-shadow:  0 1px 20px 1px rgb(221, 218, 218);
     padding: 4px;
+    margin-left: 24px;
 }   
 
 .container1 img{
-    width: 100%;
     height: 122px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -754,7 +762,7 @@ nav .inscr a{
 }
 
 .activites img{
-    width: 280px;
+    width: 300px;
     height: 146px;
 }
 
@@ -765,37 +773,420 @@ nav .inscr a{
 
 .activites .vieuxport{
     height: 194px;
-    margin: 20px 0 16px 0
+    margin: 20px 0 16px 46px;
 }
 
 .activites .fortpomegues{
     height: 194px;
-    margin-top: 0;
+    margin: 0 0 16px 0;
 }
 
 .activites .frioul{
     height: 194px;
-    margin-top: 0;
+    margin: 0 0 16px 0;
+}
+
+.colone2{
+    margin-left: 46px;
 }
 
 .activites .calanques{
     height: 194px;
-    margin-top: 0;
+    margin: 0 0 16px 46px;
 }
 
 .activites .damegarde{
     height: 194px;
-    margin-top: 0;
+    margin: 0 0 16px 0;
 }
 
 .activites .longchamp{
     height: 194px;
-    margin-top: 0;
+    margin: 0 0 16px 0;
+}
+
+.colone4{
+    margin-left: 46px;
 }
 
 footer{
     flex-direction: column;
     padding-left: 25px;
+    width: 100%;
+    margin-left: 24px;
+}
+
+.apropos{
+    margin-top: 30px;
+}
+
+.hebergements{
+    margin-top: 30px;
+}
+
+.assitance{
+    margin-top: 30px;
+}
+
+footer p{
+    font-size: 14px;
+}
+}
+
+@media screen and (min-width: 371px) and (max-width: 413px) {
+
+nav .slideborder1 a {
+    margin-left: 37%;
+}
+
+nav .slideborder2 a {
+    margin-left: 37%;
+}
+
+.filters{
+    width: 84%;
+}
+
+.container1 {
+    width: 100%;
+    margin-left: 13px;
+}
+}
+
+@media screen and (min-width: 414px) and (max-width: 415px) {
+
+header{
+    justify-content: center;
+}
+
+.logo{
+    margin: 20px 0 0 25px;
+    padding-left: 20px;
+}
+
+nav{
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    width: 65%;
+    margin-right: 42px;
+}
+
+.nav1{
+    justify-content: space-between;
+    margin-right: 35px;
+    border-top: none;
+}
+
+nav .slideborder1 a{
+    border-bottom: solid 3px rgb(221, 221, 221);
+    padding: 0 60px 10px 60px;
+    margin-left: 34%;
+}
+
+nav .slideborder1 a:hover{
+    border-bottom: solid 3px #0065FC;
+}
+
+nav .slideborder1:hover{
+    border-top: none;
+}
+
+nav .slideborder2 a{
+    border-bottom: solid 3px rgb(221, 221, 221);
+    padding: 0 60px 10px 60px;
+    margin-left: 43%;
+}
+
+nav .slideborder2 a:hover{
+    border-bottom: solid 3px #0065FC;
+}
+
+nav .slideborder2:hover{
+    border-top: none;
+}
+
+nav .inscr a{
+    margin-left: 46%;
+}
+
+.searchfilters{
+    padding-left: 0;
+    margin-left: 18px;
+    width: 100%;
+}
+
+
+.searchfilters h1{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.searchfilters h2{
+    font-size: 14px;
+    opacity: 80%;
+    margin-top: 17px;
+}
+
+.search .fa-map-marker-alt{
+    padding: 13px 0 0 16px;
+    width: 43px;
+    height: auto;
+}
+
+.search input{ 
+    width: 200px;
+    height: 43px;
+    border: solid 2px #F2F2F2;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+
+.search .click1{
+    display: none;
+}
+
+.search .click2{
+    display: inline;
+    border: none;
+    border-radius: 10px;
+    background: #0065FC;
+    color: white;
+    width: 43px;
+    height: auto;
+}
+
+.filters{
+    flex-wrap: wrap;
+    width: 83%;
+}
+
+.filters1{
+    width: 100%;
+}
+
+.eco1{
+    width: 158px;
+    height: 43px;
+    margin: 0 0 0 0;
+}
+
+.bluefil1{
+    width: 43px;
+    height: 43px;
+    padding: 14px 0 0 11px;
+}
+
+.fam1{
+    width: 125px;
+    height: 43px;
+    margin: 0 0 0 10px;
+}
+
+.bluefil2{
+    width: 43px;
+    height: 43px;
+    padding: 14px 0 0 15px;
+}
+
+.rom1{
+    width: 155px;
+    height: 43px;
+    margin: 10px 0 0 0;
+}
+
+.bluefil3{
+    width: 43px;
+    height: 43px;
+    padding: 14px 0 0 13px;
+}
+
+.ani1{
+    height: 43px;
+    margin: 10px 0 0 0;
+}
+
+.bluefil4{
+    width: 43px;
+    height: 43px;
+    padding: 13px 0 0 12px;
+}
+
+.fa-info{
+    width: 28px;
+    height: 26px;
+    padding: 6px 0 0 10px;
+}
+
+.informations{
+    width: 94%;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.main{
+    flex-wrap: wrap-reverse;
+}
+
+.main h3{
+    font-size: 12px;
+}
+
+.populaires{
+    width: 100%;
+    margin-left: 29px;
+    border-radius: 0;
+}
+
+.titlepopulaire{
+    width: 98%;
+    padding: 20px 18px 0px 0;
+}
+
+.titlepopulaire h2{
+    font-size: 17px;
+    padding-right: 0;
+    margin-left: 17px;
+}
+
+.fa-chart-line{
+    margin-left: 30%;
+    font-size: 16px;
+}
+
+.populaires figure{
+    display: flex;
+    width: 92%;
+    height: 162px;
+}
+
+.populaires img{
+    width: 130px;
+    height: 150px;
+}
+
+.populaires figcaption{
+    width: 52%;
+    padding-left: 16px;
+}
+
+.populaires figcaption p{
+    font-size: 12px;
+}
+
+.populaires .fa-star {
+    padding-top: 54px;
+    font-size: 11px;
+}
+
+.section1{
+    background: none;
+}
+
+.section1 h2{
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.container1 figure{
+    width: 390px;
+    box-shadow:  0 1px 20px 1px rgb(221, 218, 218);
+    padding: 4px;
+    margin-left: 10px;
+}   
+
+.container1 img{
+    height: 122px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container1 h3{
+    margin: 5px 0 0 0;
+}
+
+.container1 figcaption{
+    margin: 0 0 0 10px;
+}
+
+.container1 figcaption p{
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.container1 .fa-star{
+    font-size: 11px;
+}
+
+.plus{
+    margin: 30px 0 14px -24px;
+}
+
+.container2{
+    flex-wrap: wrap;
+}
+
+.activites h2{
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: 35px;
+}
+
+.activites img{
+    width: 390px;
+    height: 146px;
+}
+
+.activites h3{
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.activites .vieuxport{
+    height: 194px;
+    margin: 20px 0 16px 22px;
+}
+
+.activites .fortpomegues{
+    height: 194px;
+    margin: 0 0 16px 0;
+}
+
+.activites .frioul{
+    height: 194px;
+    margin: 0 0 16px 0;
+}
+
+.colone2{
+    margin-left: 22px;
+}
+
+.activites .calanques{
+    height: 194px;
+    margin: 0 0 16px 22px;
+}
+
+.activites .damegarde{
+    height: 194px;
+    margin: 0 0 16px 0;
+}
+
+.activites .longchamp{
+    height: 194px;
+    margin: 0 0 16px 0;
+}
+
+.colone4{
+    margin-left: 22px;
+}
+
+footer{
+    flex-direction: column;
+    padding-left: 25px;
+    width: 100%;
+    margin-left: 10px;
 }
 
 .apropos{
@@ -2162,7 +2553,7 @@ nav{
 nav .slideborder1 a{
     border-bottom: solid 3px rgb(221, 221, 221);
     padding: 0 40px 10px 40px;
-    margin-left: 0;
+    margin-left: 105px;
 }
 
 nav .slideborder1 a:hover{
